@@ -1,28 +1,61 @@
-# Create T3 App
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Twitter URL][twitter-shield]][twitter-url]
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+- [💡 Description](#-description)
+- [🚀 Quick start](#-quick-start)
+- [📣 Feedback \& Contact](#-feedback--contact)
 
-## What's next? How do I make an app with this?
+# 💡 Description
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+A T3 boilerplate. Typescript Styled Components ready to Fly 🚀
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+# 🚀 Quick start
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+1. Make sure that you have Node.js v8.15.1 and npm v5 or above installed.
+2. Clone this repo using:
+   ```sh
+   git clone --depth=1 https://github.com/lobobruno/boilerplate-t3-styled-components.git <YOUR_PROJECT_NAME>
+   ```
+3. Move to the appropriate directory
 
-## Learn More
+   ```sh
+    cd <YOUR_PROJECT_NAME>
+   ```
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+4. Install dependencies and you're ready to go!
+   ```sh
+    yarn
+   ```
+   or
+   ```sh
+    npm install
+   ```
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+# 📣 Feedback & Contact
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+If you have any suggestions or want to let us know what you think about the project, send us a message at [![Twitter URL][twitter-shield-msg]][twitter-url]
 
-## How do I deploy this?
+[contributors-shield]: https://img.shields.io/github/contributors/lobobruno/boilerplate-t3-styled-components.svg?style=for-the-badge
+[contributors-url]: https://github.com/lobobruno/boilerplate-t3-styled-components/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/lobobruno/boilerplate-t3-styled-components.svg?style=for-the-badge
+[forks-url]: https://github.com/lobobruno/boilerplate-t3-styled-components/network/members
+[stars-shield]: https://img.shields.io/github/stars/lobobruno/boilerplate-t3-styled-components.svg?style=for-the-badge
+[stars-url]: https://github.com/lobobruno/boilerplate-t3-styled-components/stargazers
+[issues-shield]: https://img.shields.io/github/issues/lobobruno/boilerplate-t3-styled-components.svg?style=for-the-badge
+[issues-url]: https://github.com/lobobruno/boilerplate-t3-styled-components/issues
+[license-shield]: https://img.shields.io/github/license/lobobruno/boilerplate-t3-styled-components.svg?style=for-the-badge
+[license-url]: https://github.com/lobobruno/boilerplate-t3-styled-components/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/lobobruno
+[twitter-shield]: https://img.shields.io/twitter/url/https/twitter.com/brunowlf.svg?style=social&label=Follow%20%40brunowlf
+[twitter-shield-msg]: https://img.shields.io/twitter/url/https/twitter.com/brunowlf.svg?style=social&label=%20%40brunowlf
+[twitter-url]: https://twitter.com/brunowlf
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+```
+
+```
