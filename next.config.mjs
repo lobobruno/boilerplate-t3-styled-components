@@ -7,7 +7,10 @@
 
 /** @type {import("next").NextConfig} */
 const config = {
-  styledComponents: true,
+   compiler: {
+            // ssr and displayName are configured by default
+            styledComponents: true
+        },
   reactStrictMode: true,
   swcMinify: true,
   i18n: {
