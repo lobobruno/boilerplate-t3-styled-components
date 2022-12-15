@@ -1,14 +1,14 @@
-import Container from "@components/Container";
-import { type NextPage } from "next";
-import { signIn, signOut, useSession } from "next-auth/react";
-import Head from "next/head";
+import Container from "@components/Container"
+import { type NextPage } from "next"
+import { signIn, signOut, useSession } from "next-auth/react"
+import Head from "next/head"
 
-import MainPage from "@components/MainPage";
-import Title from "@components/Title";
-import { trpc } from "@utils/trpc";
+import MainPage from "@components/MainPage"
+import Title from "@components/Title"
+import { trpc } from "@utils/trpc"
 
 const Home: NextPage = () => {
-  const hello = trpc.example.hello.useQuery({ text: "from tRPC" });
+  const hello = trpc.example.hello.useQuery({ text: "from tRPC" })
 
   return (
     <>
@@ -30,18 +30,18 @@ const Home: NextPage = () => {
         </Container>
       </MainPage>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
 
 const AuthShowcase: React.FC = () => {
-  const { data: sessionData } = useSession();
+  const { data: sessionData } = useSession()
 
   const { data: secretMessage } = trpc.auth.getSecretMessage.useQuery(
     undefined, // no input
     { enabled: sessionData?.user !== undefined }
-  );
+  )
 
   return (
     <div className="flex flex-col items-center justify-center gap-4">
@@ -56,5 +56,5 @@ const AuthShowcase: React.FC = () => {
         {sessionData ? "Sign out" : "Sign in"}
       </button>
     </div>
-  );
-};
+  )
+}
